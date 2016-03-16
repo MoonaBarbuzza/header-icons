@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 "Merriweather", serif;
+  color: #fff;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-color: #d05c2e;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  clear: right;
+}
+
+.leftgrain {
+  width: 40px;
+  float: left;
+  margin: 1rem;
+}
+
+.rightgrain {
+  width: 40px;
+  float: right;
+  margin: 1rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.125rem;
+  float: left;
+  margin: 0;
+  padding: 1rem;
+  border: solid 1px #a63f38;
+  width: 33.3%;
+}
+
+a:hover {
+  background-color: #a63f38;
+  padding: 1rem;
+  margin: 0;
+}
